@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    height: 60px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    margin-left: 100px;
+}
+
+.menu {
+    height: 60px;
+    margin-right: 100px;
+}
+
+.menu-item {
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+}
+
+.whereToBuy{
+    color: white;
+    text-decoration: none;
+}
+
+.contact{
+    color: white;
+    text-decoration: none;
+}
+
+.about{
+    color: white;
+    text-decoration: none;
+}
+
+.bar {
+    display: flex;
+    background-color: grey;
+    height: 60px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.bar-item{
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}

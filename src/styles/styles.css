@@ -36,6 +36,21 @@
     text-decoration: none;
 }
 
+.whereToBuy{
+    color: white;
+    text-decoration: none;
+}
+
+.contact{
+    color: white;
+    text-decoration: none;
+}
+
+.about{
+    color: white;
+    text-decoration: none;
+}
+
 .bar {
     display: flex;
     background-color: grey;
@@ -54,6 +69,7 @@
     font-weight: bold;
     font-family: Arial, sans-serif;
 }
+
 
 .main_page {
     height: 600px;
@@ -119,7 +135,7 @@ h3 {
     margin-left: 50px;
 }
 
-h4{
+.find{
     color: white;
     height: 50px;
     width: 50px;
@@ -160,4 +176,22 @@ h4{
     color: white;
     font-weight: bold;
     font-family: Arial, sans-serif;
+}
+
+.about_us_text_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-bottom: 300px;
+}
+
+.about_us_text {
+    display: flex;
+    justify-content: center;  /* horizontal center */
+    align-items: center;
+    text-align: center;  
+    width: 1000px;
+    margin: 10px;
 }
