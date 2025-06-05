@@ -1,0 +1,36 @@
+.fname{
+
+}
+
+.lname{
+    margin-left: 95px;
+}
+
+.address{
+    width:350px;
+}
+
+.county{
+    margin-left:98px;
+}
+
+.county2{
+    margin-left:105px;
+}
+
+.no1{
+    margin-left:98px;
+}
+
+.email{
+    width: 350px;
+}
+
+.largeBar{
+    width:350px;
+}
+
+.submit{
+    width: 200px;
+    margin: 10px;
+}

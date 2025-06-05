@@ -1,136 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <link rel="stylesheet" href="../styles/styles.css">
-</head>
-<body>
-
-
-    <nav class="navbar">
-        <div class="logo"><img src="../images/sumvisionlogo.png" alt="Sumvision Logo" width="200" height="60"></div>
-        <div class="menu">
-            <li class="menu-item"><a class ="home" href="http://127.0.0.1:5500/public/index.html">Home</a></li>
-            <li class="menu-item"><a class ="whereToBuy" href="http://127.0.0.1:5500/src/html/whereToBuy.html">Where to Buy</a></li>
-            <li class="menu-item"><a class ="contact" href="http://127.0.0.1:5500/src/html/contact.html">Contact</a></li>
-            <li class="menu-item"><a class="about" href="http://127.0.0.1:5500/src/html/about.html">About</a></li>
-            <li class="menu-item"><img src="../images/search_icon.png" alt="Search Logo" width="15" height="15"></li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="../styles/styles.css">
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/contact.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo"><img src="../images/sumvisionlogo.png" alt="Sumvision Logo" width="200" height="60"></div>
+            <div class="menu">
+                <li class="menu-item"><a class ="home" href="http://127.0.0.1:5500/public/index.html">Home</a></li>
+                <li class="menu-item"><a class ="whereToBuy" href="http://127.0.0.1:5500/src/html/whereToBuy.html">Where to Buy</a></li>
+                <li class="menu-item"><a class ="contact" href="http://127.0.0.1:5500/src/html/contact.html">Contact</a></li>
+                <li class="menu-item"><a class="about" href="http://127.0.0.1:5500/src/html/about.html">About</a></li>
+                <li class="menu-item"><img src="../images/search_icon.png" alt="Search Logo" width="15" height="15"></li>
+            </div>
+        </nav>
+        <nav>
+            <div class="bar">
+                <li class="bar-item"><a class="mouseAndKeyboard" href="http://127.0.0.1:5500/src/html/mouseAndKeyboard.html">Mouse & Keyboard</a></li>
+                <li class="bar-item"><a class="speaker" href="http://127.0.0.1:5500/src/html/speaker.html">Speaker</a></li>
+                <li class="bar-item"><a class="charger" href="http://127.0.0.1:5500/src/html/charger.html">Charger</a></li>
+                <li class="bar-item"><a class="headphone" href="http://127.0.0.1:5500/src/html/headphone.html">Headphones</a></li>
+                <li class="bar-item"><a class="other" href="http://127.0.0.1:5500/src/html/other.html" >Others</a></li>
+            </div>
+        </nav>
+        <div>
+            <h1 class="title">Contact Us</h1>
         </div>
-    </nav>
-    <nav>
-        <div class="bar">
-            <li class="bar-item">Mouse & Keyboard</li>
-            <li class="bar-item">Speaker</li>
-            <li class="bar-item">Charger</li>
-            <li class="bar-item">Headphones</li>
-            <li class="bar-item">Others</li>
+        <div>
+            <div class="logo"><img src="../images/sumvisionlogo.png" alt="Sumvision Logo" width="200" height="100"></div>
+            <h3>SUMVISION</h3>
         </div>
-    </nav>
-    <div>
-        <h1>Contact Us</h1>
-    </div>
-    <div>
-        <div class="logo"><img src="../images/sumvisionlogo.png" alt="Sumvision Logo" width="200" height="100"></div>
-        <h3>SUMVISION</h3>
-    </div>
+        <div class="form_container">
+            <h2>Customer Registration Details:</h2>
+            <a>Please note that you can only register products WITHIN the 1 year manufacturer warranty.</a>
+            <form action="/submit" method="POST">
+                <div>
+                    <h4 class="fullName">Full Name *</h4>
+                    <div>
+                        <input type="text" id="fname" name="fname" placeholder ="spongebob" required>
+                        <input type="text" id="lname" name="lname" placeholder ="squarepants" required>
+                    </div>
+                    <div>
+                        <label class="fname" for="fname">First Name</label>
+                        <label class="lname" for="lname">Last Name</label>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <h4>Address *</h4>
+                    <div>
+                        <input class="largeBar" type="text" id="sAddress" name="sAddress" placeholder ="">
+                    </div>
+                    <div>
+                        <label for="sAddress">Street Address</label>
+                    </div>
+                    <div>
+                        <input class="largeBar" type="text" id="sAddress2" name="sAddress2" placeholder ="">
+                    </div>
+                    <div>
+                        <label for="sAddress">Street Address Line 2</label>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <input type="text" id="city" name="city" placeholder ="">
+                        <input type="text" id="county" name="county" placeholder ="">
+                    </div>
+                    <div>
+                        <label for="city">City/Town</label>
+                        <label class="county" for="County">County</label>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <input type="text" id="postCode" name="postCode" placeholder ="">
+                        <input type="text" id="county" name="county" placeholder ="">
+                    </div>
+                    <div>
+                        <label for="postCode">postCode</label>
+                        <label class="county2" for="County">County</label>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <h4>Phone Number</h4>
+                    <div>
+                        <input type="text" id="areaCode" name="areaCode" placeholder ="">
+                        <input type="text" id="no1" name="no1" placeholder ="">
+                    </div>
+                    <div>
+                        <label for="areaCode">Area Code</label>
+                        <label class=no1 for="no1">Phone Number</label>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <h4>E-mail *</h4>
+                    <div>
+                        <input class="largeBar" type="text" id="email" name="email" placeholder ="">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <h4>Product</h4>
+                    <div>
+                        <label for="productName">Full Product Name</label>
+                    </div>
+                    <div>
+                        <input class="largeBar" type="text" id="productName" name="productName" placeholder ="">
+                    </div>
+                    <div>
+                        <label for="productSno.1">Product serial number (Beginning SUM)</label>
+                    </div>
+                    <div>
+                        <input class="largeBar" type="text" id="productSno.1" name="productSno.1" placeholder ="">
+                    </div>
+                    <div>
+                        <label for="purchaseDate">Date of Purchase</label>
+                    </div>
+                    <div>
+                        <input type="text" id="purchaseDate" name="purchaseDate" placeholder ="">
+                    </div>
+                    <div>
+                        <label for="companyName">Name of company the product was purchased from</label>
+                    </div>
+                    <div>
+                        <input class="largeBar" type="text" id="companyName" name="companyName" placeholder ="">
+                    </div>
+                    <div>
+                        <label for="message">Enter message as shown</label>
+                    </div>
+                    <div>
+                        <input type="text" id="message" name="message" placeholder ="">
+                    </div>
+                    <button class="submit" type="submit">Submit</button>
+                <div>
+            </form>
+        </div>
+        <div class="support_image">
+            <a href="http://127.0.0.1:5500/src/html/contact.html">
+                <img src="../images/support_image.png">
+            </a>
+        </div>
+        <div class="bottom_bar">
+            <div class="social_media">
+                <h4 class="find"> Find Us At</h4>
+                <a href="https://www.youtube.com/sumvisionInfo"><img class="youtube-img" src="../images/youtube-icon.png"></a>
+                <a href="https://www.facebook.com/Sumvisioninfo/?locale=en_GB"><img class="facebook-img" src="../images/facebook-logo.png"></a>
+            </div>
+            <div class="protect">
+                <img class="BB-image" src="../images/Botton_Bar_Image.png">
+            </div>
+            <div class="product_categories">
+                <a><h5 class="product_categories_word">PRODUCT CATEGORIES</h5></a>
+                <a href="http://127.0.0.1:5500/src/html/mouseAndKeyboard.html" class="product_categories_word"><h5>Mouses & Keyboards</h5></a>
+                <a href="http://127.0.0.1:5500/src/html/speaker.html" class="product_categories_word"><h5>Speakers</h5></a>
+                <a href="http://127.0.0.1:5500/src/html/charger.html" class="product_categories_word"><h5>Chargers</h5></a>
+                <a href="http://127.0.0.1:5500/src/html/headphone.html" class="product_categories_word"><h5>Headphones</h5></a>
+                <a href="http://127.0.0.1:5500/src/html/other.html" class="product_categories_word"><h5>Others</h5></a>
+            </div>
+        </div>
     </body>
-    </body>
-    </body>
-    <div class="form_container">
-        <h2>Customer Registration Details</h2>
-        <form action="/submit" method="POST">
-            <h4 class="fullName">Full Name</h4>
-            <div>
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname" placeholder ="spongebob" required>
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname" placeholder ="squarepants" required>
-            </div>
-            <br>
-            <h4>Address</h4>
-            <div>
-                <label for="sAddress">Street Address:</label>
-                <input type="text" id="sAddress" name="sAddress" placeholder ="">
-                <label for="sAddress">Street Address Line 2:</label>
-                <input type="text" id="sAddress2" name="sAddress2" placeholder ="">
-            </div>
-            <div>
-                <label for="city">City/Town:</label>
-                <input type="text" id="city" name="city" placeholder ="">
-                <label for="County">County:</label>
-                <input type="text" id="county" name="county" placeholder ="">
-            </div>
-            <div>
-                <label for="postCode">postCode:</label>
-                <input type="text" id="postCode" name="postCode" placeholder ="">
-                <label for="County">County:</label>
-                <input type="text" id="county" name="county" placeholder ="">
-            </div>
-            <br>
-            <h4>Phone Number</h4>
-            <div>
-                <label for="areaCode">Area Code:</label>
-                <input type="text" id="areaCode" name="areaCode" placeholder ="">
-                <label for="County">Phone Number</label>
-                <input type="text" id="no.1" name="no.1" placeholder ="">
-            </div>
-            <br>
-            <h4>E-mail</h4>
-            <div>
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" placeholder ="">
-            </div>
-            <br>
-            <h4>Product</h4>
-            <div>
-                <label for="productName">Full Product Name:</label>
-                <input type="text" id="productName" name="productName" placeholder ="">
-            </div>
-            <div>
-                <label for="productSno.1">Product serial number (Beginning SUM):</label>
-                <input type="text" id="productSno.1" name="productSno.1" placeholder ="">
-            </div>
-            <div>
-                <label for="purchaseDate">Date of Purchase:</label>
-                <input type="text" id="purchaseDate" name="purchaseDate" placeholder ="">
-            </div>
-            <div>
-                <label for="companyName">Name of company the product was purchased from:</label>
-                <input type="text" id="companyName" name="companyName" placeholder ="">
-            </div>
-            <div>
-                <label for="message">Enter message as shown:</label>
-                <input type="text" id="message" name="message" placeholder ="">
-            </div>
-            <button type="submit">Submit</button>
-
-            <div>
-
-            </div>
-        </form>
-    </div>
-    <div class="support_image">
-        <img src="../images/support_image.png">
-    </div>
-    <div class="bottom_bar">
-        <div class="social_media">
-            <h4 class="find"> Find Us At</h4>
-            <img class="youtube-img" src="../images/youtube-icon.png">
-            <img class="facebook-img" src="../images/facebook-logo.png">
-        </div>
-        <div class="protect">
-            <img class="BB-image" src="../images/Botton_Bar_Image.png">
-        </div>
-        <div class="product_categories">
-            <h5 class="product_categories_word">PRODUCT CATEGORIES</h5>
-            <h5 class="product_categories_word">Mouses & Keyboards</h5>
-            <h5 class="product_categories_word">Speakers</h5>
-            <h5 class="product_categories_word">Chargers</h5>
-            <h5 class="product_categories_word">Headphones</h5>
-            <h5 class="product_categories_word">Others</h5>
-        </div>
-    </div>
-</body>
 </html>

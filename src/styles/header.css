@@ -1,8 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 .navbar {
     display: flex;
@@ -16,6 +11,8 @@
 .logo {
     color: white;
     margin-left: 100px;
+    height: 65px;
+    width:65px
 }
 
 .menu {
@@ -36,9 +33,17 @@
     text-decoration: none;
 }
 
+.home:hover {
+    color: red;
+}
+
 .whereToBuy{
     color: white;
     text-decoration: none;
+}
+
+.whereToBuy:hover{
+    color: red;
 }
 
 .contact{
@@ -46,20 +51,26 @@
     text-decoration: none;
 }
 
+.contact:hover{
+    color: red;
+}
+
 .about{
     color: white;
     text-decoration: none;
 }
 
+.about:hover{
+    color:red;
+}
+
 .bar {
     display: flex;
-    background-color: grey;
+    background-color: rgb(175, 10, 10);
     height: 60px;
     width: 100vw;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .bar-item{
@@ -68,4 +79,49 @@
     padding: 20px 30px;
     font-weight: bold;
     font-family: Arial, sans-serif;
+}
+
+.mouseAndKeyboard{
+    color: white;
+    text-decoration: none;
+}
+
+.mouseAndKeyboard:hover{
+    color:red;
+}
+
+.speaker{
+    color: white;
+    text-decoration: none;
+}
+
+.speaker:hover{
+    color:red;
+}
+
+.charger{
+    color: white;
+    text-decoration: none;
+}
+
+.charger:hover{
+    color:red;
+}
+
+.headphone{
+    color: white;
+    text-decoration: none;
+}
+
+.headphone:hover{
+    color:red;
+}
+
+.other{
+    color: white;
+    text-decoration: none;
+}
+
+.other:hover{
+    color: red;
 }

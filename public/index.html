@@ -1,71 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="../src/styles/styles.css">
-</head>
-<body>
-
-
-    <nav class="navbar">
-        <div class="logo"><img src="../src/images/sumvisionlogo.png" alt="Sumvision Logo" width="200" height="60"></div>
-        <div class="menu">
-            <li class="menu-item"><a class ="home" href="http://127.0.0.1:5500/public/index.html">Home</a></li>
-            <li class="menu-item"><a class ="whereToBuy" href="http://127.0.0.1:5500/src/html/whereToBuy.html">Where to Buy</a></li>
-            <li class="menu-item"><a class ="contact" href="http://127.0.0.1:5500/src/html/contact.html">Contact</a></li>
-            <li class="menu-item"><a class="about" href="http://127.0.0.1:5500/src/html/about.html">About</a></li>
-            <li class="menu-item"><img src="../src/images/search_icon.png" alt="Search Logo" width="15" height="15"></li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="../src/styles/styles.css">
+        <link rel="stylesheet" href="../src/styles/header.css">
+        <link rel="stylesheet" href="../src/styles/footer.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo"><img src="../src/images/sumvisionlogo.png" alt="Sumvision Logo" width="200" height="60"></div>
+            <div class="menu">
+                <li class="menu-item"><a class ="home" class="hover-link" href="http://127.0.0.1:5500/public/index.html">Home</a></li>
+                <li class="menu-item"><a class ="whereToBuy" href="http://127.0.0.1:5500/src/html/whereToBuy.html">Where to Buy</a></li>
+                <li class="menu-item"><a class ="contact" href="http://127.0.0.1:5500/src/html/contact.html">Contact</a></li>
+                <li class="menu-item"><a class="about" href="http://127.0.0.1:5500/src/html/about.html">About</a></li>
+                <li class="menu-item"><img src="../src/images/search_icon.png" alt="Search Logo" width="15" height="15"></li>
+            </div>
+        </nav>
+        <nav>
+            <div class="bar">
+                <li class="bar-item"><a class="mouseAndKeyboard" href="http://127.0.0.1:5500/src/html/mouseAndKeyboard.html">Mouse & Keyboard</a></li>
+                <li class="bar-item"><a class="speaker" href="http://127.0.0.1:5500/src/html/speaker.html">Speaker</a></li>
+                <li class="bar-item"><a class="charger" href="http://127.0.0.1:5500/src/html/charger.html">Charger</a></li>
+                <li class="bar-item"><a class="headphone" href="http://127.0.0.1:5500/src/html/headphone.html">Headphones</a></li>
+                <li class="bar-item"><a class="other" href="http://127.0.0.1:5500/src/html/other.html">Others</a></li>
+            </div>
+        </nav>
+        <div>
+            <img class="main_page" src="../src/images/sumvision_main_page_image.jpg">
         </div>
-    </nav>
-    <nav>
-        <div class="bar">
-            <li class="bar-item">Mouse & Keyboard</li>
-            <li class="bar-item">Speaker</li>
-            <li class="bar-item">Charger</li>
-            <li class="bar-item">Headphones</li>
-            <li class="bar-item">Others</li>
+        <div>
+            <h1 class="title">MOST SOLD PRODUCTS</h1>
         </div>
-    </nav>
-    <div>
-        <img class="main_page" src="../src/images/sumvision_main_page_image.jpg">
-    </div>
-    <div>
-        <h1>MOST SOLD PRODUCTS</h1>
-    </div>
-    <div>
-        <div class="images">
-            <div><img class="image" src="../src/images/Raijin_Mouse_Main_Image.webp"></div>
-            <div><img class="image" src="../src/images/Sumvision_keyboard.jpg"></div>
-            <div><img class="image" src="../src/images/Sumvision_cyclone.jpg"></div>
+        <div>
+            <div class="images">
+                <div><img class="image" src="../src/images/Raijin_Mouse_Main_Image.webp"></div>
+                <div><img class="image" src="../src/images/Sumvision_keyboard.jpg"></div>
+                <div><img class="image" src="../src/images/Sumvision_cyclone.jpg"></div>
+            </div>
+            <div class="name">
+                <h3>Raijin Mouse</h3>
+                <h3>Sumvision Keyboard</h3>
+                <h3>Sumvision Cyclone</h3>
+            </div>
         </div>
-        <div class="name">
-            <h3>Raijin Mouse</h3>
-            <h3>Sumvision Keyboard</h3>
-            <h3>Sumvision Cyclone</h3>
+        <div class="support_image">
+            <a href="http://127.0.0.1:5500/src/html/contact.html">
+                <img src="../src/images/support_image.png">
+            </a>
         </div>
-    </div>
-    <div class="support_image">
-        <img src="../src/images/support_image.png">
-    </div>
-    <div class="bottom_bar">
-        <div class="social_media">
-            <h4 class="find"> Find Us At</h4>
-            <img class="youtube-img" src="../src/images/youtube-icon.png">
-            <img class="facebook-img" src="../src/images/facebook-logo.png">
+        <div class="bottom_bar">
+            <div class="social_media">
+                <h4 class="find"> Find Us At</h4>
+                <a href="https://www.youtube.com/sumvisionInfo"><img class="youtube-img" src="../src/images/youtube-icon.png"></a>
+                <a href="https://www.facebook.com/Sumvisioninfo/?locale=en_GB"><img class="facebook-img" src="../src/images/facebook-logo.png"></a>
+            </div>
+            <div class="protect">
+                <img class="BB-image" src="../src/images/Botton_Bar_Image.png">
+            </div>
+            <div class="product_categories">
+                <a><h5 class="product_categories_word">PRODUCT CATEGORIES</h5></a>
+                <a href="http://127.0.0.1:5500/src/html/mouseAndKeyboard.html" class="product_categories_word"><h5>Mouses & Keyboards</h5></a>
+                <a href="http://127.0.0.1:5500/src/html/speaker.html" class="product_categories_word"><h5>Speakers</h5></a>
+                <a href="http://127.0.0.1:5500/src/html/charger.html" class="product_categories_word"><h5>Chargers</h5></a>
+                <a href="http://127.0.0.1:5500/src/html/headphone.html" class="product_categories_word"><h5>Headphones</h5></a>
+                <a href="http://127.0.0.1:5500/src/html/other.html" class="product_categories_word"><h5>Others</h5></a>
+            </div>
         </div>
-        <div class="protect">
-            <img class="BB-image" src="../src/images/Botton_Bar_Image.png">
-        </div>
-        <div class="product_categories">
-            <h5 class="product_categories_word">PRODUCT CATEGORIES</h5>
-            <h5 class="product_categories_word">Mouses & Keyboards</h5>
-            <h5 class="product_categories_word">Speakers</h5>
-            <h5 class="product_categories_word">Chargers</h5>
-            <h5 class="product_categories_word">Headphones</h5>
-            <h5 class="product_categories_word">Others</h5>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
