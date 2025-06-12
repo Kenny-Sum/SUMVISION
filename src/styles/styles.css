@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    
+}
+
 .main_page {
     height: 600px;
     width: 100vw;
@@ -15,7 +19,7 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-color:  rgb(175, 10, 10);
+    background-color:  rgb(121, 9, 9);
     color: white;
     font-weight: bold;
     font-family: Arial, sans-serif;
@@ -51,7 +55,8 @@
 .support_image{
     display: flex;
     justify-content: center;  
-    align-items: center;      
+    align-items: center;  
+    margin-top: 100px;   
 }
 
 .about_us_text_box{
