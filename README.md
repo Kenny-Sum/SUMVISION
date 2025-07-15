@@ -40,6 +40,27 @@ The About Us page holds general information on the company. This includes its po
 <img width="1887" height="892" alt="image" src="https://github.com/user-attachments/assets/a68e3bab-7de7-4a90-903f-65a3283fd770" />
 <img width="1885" height="676" alt="image" src="https://github.com/user-attachments/assets/a7915f5a-46ec-4978-a64a-f5247ef8b931" />
 
+# Product Page
+
+The product page holds the a product that is being sold. The page contains a sliding system that allows the user to browse through the various different images of product. It also contains a "buy now" button link that directs the user to the amazon website that sells the product. The page also includes further information on the product including spec details. 
+
+<img width="1881" height="902" alt="image" src="https://github.com/user-attachments/assets/034cec7e-6e98-42d6-8252-5bf4b6a932da" />
+<img width="1880" height="402" alt="image" src="https://github.com/user-attachments/assets/86c698f4-214d-4955-815a-06054e3ba1af" />
+<img width="1887" height="450" alt="image" src="https://github.com/user-attachments/assets/aed3d39c-1c52-41b6-8361-14f9a9ccf6cd" />
+<img width="1890" height="887" alt="image" src="https://github.com/user-attachments/assets/ac58ad99-6125-4edb-a9c2-9221637a325a" />
+<img width="1887" height="847" alt="image" src="https://github.com/user-attachments/assets/8e624f7b-9e64-408e-ad3d-3d64d072c3dc" />
+<img width="1885" height="837" alt="image" src="https://github.com/user-attachments/assets/f04dc4c6-46f4-4038-9758-f6a3742fadd4" />
+<img width="1887" height="248" alt="image" src="https://github.com/user-attachments/assets/fe3d937f-11da-4eff-91e7-cd2548db665a" />
+
+
+
+
+
+
+
+
+
+
 
 
 
