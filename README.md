@@ -52,6 +52,10 @@ The product page holds the a product that is being sold. The page contains a sli
 <img width="1885" height="837" alt="image" src="https://github.com/user-attachments/assets/f04dc4c6-46f4-4038-9758-f6a3742fadd4" />
 <img width="1887" height="248" alt="image" src="https://github.com/user-attachments/assets/fe3d937f-11da-4eff-91e7-cd2548db665a" />
 
+# Other
+
+The website is still in development. Further developments will includes a backend (database, flask) and search system. 
+
 
 
 
