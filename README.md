@@ -24,7 +24,18 @@ The Where to Buy page gives the user several links to websites that sells sumvis
 
 # Contact Page
 The contact page gives information to the customer how to contact the company via through phone and location.
-<img width="1883" height="636" alt="image" src="https://github.com/user-attachments/assets/d31fa1a5-8712-4704-b2b3-36dd5b9f107c" />
+<img width="1883" height="717" alt="image" src="https://github.com/user-attachments/assets/59136f3f-b61e-4f1a-9e32-06262fbc1b61" />
+<img width="1888" height="642" alt="image" src="https://github.com/user-attachments/assets/82733511-86ff-443b-90c5-d21fffa09c86" />
+
+# About Us Page
+The About Us page holds general information on the company. This includes its policy ad history. 
+<img width="1887" height="892" alt="image" src="https://github.com/user-attachments/assets/a68e3bab-7de7-4a90-903f-65a3283fd770" />
+<img width="1885" height="676" alt="image" src="https://github.com/user-attachments/assets/a7915f5a-46ec-4978-a64a-f5247ef8b931" />
+
+
+
+
+
 
 
 
