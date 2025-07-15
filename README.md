@@ -14,5 +14,10 @@ A web-based graphics editor and design tool, known for its collaborative interfa
 # Main Page
 The main page gives us a introduction to the website. It allows the customer to gain a understanding of the sumvision website and allows users to browse various categories of products.
 <img width="1890" height="900" alt="image" src="https://github.com/user-attachments/assets/a4d472a6-40b0-40e9-8b36-a2a1816544dd" />
-<img width="1892" height="905" alt="image" src="https://github.com/user-attachments/assets/d8553491-c4bc-4890-8bcd-06187adf7ac9" />
+<img width="1893" height="740" alt="image" src="https://github.com/user-attachments/assets/bf06c8a1-1181-4c82-91d6-34420e610a0e" />
+<img width="1882" height="632" alt="image" src="https://github.com/user-attachments/assets/45a04ffb-66b8-4db7-b850-753a45e44f0a" />
+
+
+
+
 
