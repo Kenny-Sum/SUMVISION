@@ -1,0 +1,299 @@
+/* Header css code */
+.navbar {
+    display: flex;
+    background-color: black;
+    height: 60px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoImage{
+    object-fit: contain;
+    margin-left: 100px;
+    background-color: black;
+}
+
+.menu {
+    height: 60px;
+    margin-right: 100px;
+    background-color: black;
+}
+
+.menu-item {
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.home:hover {
+    color: red;
+}
+
+.whereToBuy{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.whereToBuy:hover{
+    color: red;
+}
+
+.contact{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.contact:hover{
+    color: red;
+}
+
+.about{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.about:hover{
+    color:red;
+}
+
+.bar {
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    height: 60px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar-item{
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    background-color: rgb(39, 39, 39);
+}
+
+.mouseAndKeyboard{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(39, 39, 39);
+}
+
+.mouseAndKeyboard:hover{
+    color:red;
+}
+
+.speaker{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(39, 39, 39);
+}
+
+.speaker:hover{
+    color:red;
+}
+
+.charger{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(39, 39, 39);
+}
+
+.charger:hover{
+    color:red;
+}
+
+.headphone{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(39, 39, 39);
+}
+
+.headphone:hover{
+    color:red;
+}
+
+.other{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(39, 39, 39);
+}
+
+.other:hover{
+    color: red;
+}
+
+/* main css code */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+.main_page {
+    height: 600px;
+    width: 100vw;
+}
+
+.title {
+    display: flex;
+    height: 60px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(121, 9, 9);
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0px 10px 0px;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.name {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px 100px 0px;
+}
+
+.Buy {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.support_image{
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    margin-top: 100px;   
+}
+
+.about_us_text_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-bottom: 300px;
+}
+
+.about_us_text {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    text-align: center;  
+    width: 1000px;
+    margin: 10px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+}
+
+h1,h2,h3,h4,h5,h6,a{
+    font-family: Arial, sans-serif;
+}
+
+/* footer css code */ 
+
+.bottom_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:200px;
+    width:100vw;
+    background-color: black;
+}
+
+.social_media{
+    display: flex;
+    margin-left: 50px;
+}
+
+.find{
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.youtube-img{
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.facebook-img{
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.protect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 10px;
+    width: 10px;
+}
+
+.BB-image{
+    height: 100px;
+}
+
+.product_categories{
+    margin-right: 50px;
+}
+
+.product_categories_word{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+.product_categories_word:hover{
+    color: red;
+}
