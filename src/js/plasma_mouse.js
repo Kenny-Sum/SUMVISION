@@ -2,9 +2,9 @@ const images = [
     "../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_Mouse_Image_Main.jpg",
     "../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_Mouse_Image_2.jpg",
     "../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_Mouse_Image_3.jpg",
-    "../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_Mouse_Image_4.jpg",
-    "../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_Mouse_Image_5.jpg",
-    "../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_Mouse_Image_6.jpg"
+    "../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_mouse_image_4.jpg",
+    "../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_mouse_image_5.jpg",
+    "../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_mouse_image_6.jpg"
 ];
 
 let currentIndex = 0;
@@ -44,18 +44,18 @@ function changeImage3()
 
 function changeImage4()
 {
-    document.getElementById('slider-image').src = '../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_Mouse_Image_4.jpg';
+    document.getElementById('slider-image').src = '../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_mouse_image_4.jpg';
     currentIndex = 3
 }
 
 function changeImage5()
 {
-    document.getElementById('slider-image').src = '../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_Mouse_Image_5.jpg';
+    document.getElementById('slider-image').src = '../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_mouse_image_5.jpg';
     currentIndex = 4
 }
 
 function changeImage6()
 {
-    document.getElementById('slider-image').src = '../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_Mouse_Image_6.jpg';
+    document.getElementById('slider-image').src = '../../images/mouseAndKeyboard/Plasma_Mouse/Plasma_mouse_image_6.jpg';
     currentIndex = 5
 }
